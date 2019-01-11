@@ -1,0 +1,17 @@
+
+{% extends 'layout_ru.html' %}
+
+{% block body %}
+
+<div align=left id="t_main_text"><h1>Лаб работа "{{ labname }}" </h1>
+
+<br>
+
+{% for task in tasks %}
+
+	<p> <a href="/task/{{ task }}"> {{ task }}-ое задание </a> </p>
+
+{% endfor %}
+
+{% endblock %}	
+

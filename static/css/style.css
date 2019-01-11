@@ -1,0 +1,268 @@
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:400;src:local('Inconsolata'),url(//themes.googleusercontent.com/static/fonts/inconsolata/v7/BjAYBlHtW3CJxDcjzrnZCIbN6UDyHWBl620a-IRfuBk.woff) format('woff')}@font-face{font-family:'Inconsolata';font-style:normal;font-weight:700;src:local('Inconsolata Bold'),local('Inconsolata-Bold'),url(//themes.googleusercontent.com/static/fonts/inconsolata/v7/AIed271kqQlcIRSOnQH0yTqR_3kx9_hJXbbyU8S6IN0.woff) format('woff')}
+	
+	
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,a,b,strong,blockquote,pre,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,figure,figcaption,footer,header,hgroup,nav,section,summary,t_key1,t_key2,t_key3{border:0;outline:0;font-weight:normal;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}:focus{outline:0;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}body{line-height:1;color:#000;background-color:#fff}
+	
+	
+   html, body {
+		background-color: #333333;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-family: Fixed, monospace;
+		color:#babdb6;
+		margin: 0; /* Обнуляем отступы браузера */
+	}
+	
+	table, th, td {
+		border: 1px solid white;
+	}	
+	
+	img { 
+		margin-top: 0.6em; /* Отступ сверху */
+		margin-bottom: 0.7em; /* Отступ снизу */
+		text-align: center;  
+		text-indent: 50px;
+   }		
+   
+   .frame_pict {
+    border: 5px solid #ff40c0;
+   }   
+   
+   .border {
+		border: 3px solid #ddddff;
+	}
+	
+	p {  /* Заголовок страницы */ 
+		color: #EEFFEE;
+      font-size: 14pt;
+		margin-top: 0.3em; /* Отступ сверху */
+		margin-bottom: 0.3em; /* Отступ снизу */
+		text-indent: 10px;
+   }	
+   	
+	h1 {  
+      color: #FFD700;
+      font-size: 16pt;
+      font-weight: bold;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+      margin: 0; /* Убираем отступы */
+		margin-top: 0px; /* Отступ сверху */
+		margin-bottom: 30px;      
+      font-style: normal;
+      text-align: center;  
+   }
+   
+	h2 {     
+		font-size: 15pt;
+		color: #FF00FF;
+		font-style: italic;
+		margin-top: 30px; /* Отступ сверху */
+		margin-bottom: -9px;
+      text-align: center;  
+	}
+
+   h3 {    
+      color: #44FF22;
+		font-size: 14pt;
+		font-family: "Arial", Geneva, sans-serif;
+		font-style: italic;
+		margin-top: 18px; /* Отступ сверху */
+		margin-bottom: -13px;
+		text-indent: 30px;
+   }
+   
+   h4 {    
+      color: #66BBFF;
+		font-size: 13pt;
+		font-family: "Arial", Geneva, sans-serif;
+		font-style: italic;
+		margin-top: 18px; /* Отступ сверху */
+		margin-bottom: -13px;
+		text-indent: 30px;
+   }   
+   
+     
+	/* Headings */
+   #title_site {     /* Название сайта */
+      font-size: 12pt;
+      color: #33FF55;
+      font-weight: bold;
+      margin: 0; /* Убираем отступы */
+   }   
+   
+   page_title {     /* комментарий к названию сайта */
+      color: #00FF00;
+      font-size: 16pt;
+      font-family: "Arial", Geneva, sans-serif;
+      font-style: normal;
+      text-align: center;   
+   } 
+
+	a {      /* link */
+      color: #22FFFF;
+	}
+
+	a.top {
+      color: #FFFFFF;
+	}
+
+	b {      /* жирный */
+      color: #FFAA44;
+      font-weight : 1100;
+	}
+	
+	strong {      /* жирный */
+      color: #FFAA44;
+      font-weight : 1100;
+	}	
+	
+	v {      /* жирный */
+      /*color: #FF8C00;*/
+		color: #FFA500;
+      font-weight : 1100;
+		font-family: "MS Sans Serif", Geneva, sans-serif;
+	}	
+	
+	d {      /* жирный-2 */
+      color: #66BBFF;
+      font-weight : 1100;
+	}	
+	
+	lg {      /* light green */
+      color: #99FFEE;
+      font-weight : 1100;
+	}		
+	
+	g {      /* green */
+      color: #33FF88;
+      font-weight : 1100;
+	}		
+	
+	i {      /* наклонный */
+		color: #AADDFF;
+	}
+
+	u {      /* подчеркнутый */
+      color: #AAAAFF;
+	}
+
+	k {      /* Определяемые (ключевые) слова */
+      color: #FFAA44;
+      font-style: italic;      
+	}
+
+	ey {      
+      color: #FFFF00;
+      font-weight : 1100;
+	}
+	
+	code 	{      /* тег для выделения кода на каком-либо языке */
+      color: #FFCC00;   
+      font-size: 14pt;      
+		margin-top: -3px; 
+		margin-bottom: -13px;				
+		text-indent: 0px;
+	}
+
+	term 	{      /* консоль */
+      color: #FFCC00;   
+      font-size: 13pt;   
+		margin-top: 5px; /* Отступ сверху */
+		margin-bottom: 5px;
+		text-indent: 30px;
+	}
+	
+	list {      /* list */
+      color: #00AAAA;   
+	}
+
+	#t_about {
+		color: Blue;
+		font-size: 14pt;
+		font-family: "MS Sans Serif", Geneva, sans-serif;
+		font-weight : 500;
+	}
+
+   #t_content {  /* содержимое */
+      margin: 10px 5px 20px 175px; /* Значения отступов */
+      padding: 5px;       /* Поля вокруг текста */
+      border: 1px solid #333; /* Параметры рамки */
+      color: #FFFFFF; /* Цвет текста */
+		font-size: 14pt;
+		/*font-family: "Times New Roman", Geneva, sans-serif;*/
+		font-family: Arial, sans-serif;
+		font-weight : 700;
+   }
+
+   #normal_text {          
+      color: #EEEEEE;
+		font-size: 14pt;
+		font-weight : 700;
+		color: #99FF44; /* Цвет текста */
+		/*font-family: "Times New Roman", sans-serif;*/
+		font-family: Arial, sans-serif;
+		font-style: normal;
+	}
+
+   #t_date {          /* дата  */
+      color: #BB6644;
+		font-size: 13pt;
+		font-family: "Arial", Geneva, sans-serif;
+		font-style: normal;
+		text-align: right;
+   }
+
+   #comment {          /* комментарий */
+      color: #DD33EE;
+		font-size: 13pt;
+		font-family: "Arial", Geneva, sans-serif;
+		font-style: normal;
+		margin-top: -5px; /* Отступ сверху */
+		margin-bottom: -15px;		
+   }
+   
+	
+	/* ------------*/
+	
+
+   
+   /* для верхнее меню*/
+	ul.css-menu-1 {
+		list-style: none
+	}
+
+	ul.css-menu-1 li {
+		display: inline
+	}
+
+	ul.css-menu-1 li a {    /* текст в меню-1*/
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 13pt;
+		text-decoration: none;
+		background: #5c6cb7;
+		font-weight: bold;
+		color: #ffaa00;
+		padding: 6px 10px 6px 10px
+	}
+
+	ul.css-menu-1 li a:hover {
+		padding: 6px 10px 6px 10px;
+		font-weight: bold;
+		background: #364d95;
+		color: #ff9900
+	}
+
+	ul.css-menu-1 li a.selected {
+		background: #364e95
+	}
+
+   .line {
+      border-bottom: 1px groove #33FF33; /* Линия между ссылками */
+   }
+
+   #foot { /* Нижний блок */
+      background: #222222; /* Цвет фона */
+      padding: 3px; /* Поля вокруг текста */
+      color: #FFFFFF; /* Цвет текста */
+      clear: both; /* Отменяем обтекание */
+   }

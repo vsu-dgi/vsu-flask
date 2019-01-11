@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask example</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">	
+	{% include 'yandex.js' %}  
+  </head>
+  <body>
+  
+	<br>
+  
+	<body background="{{url_for('static', filename='img/bg.jpg')}}" bgcolor="#441166" link="#FFFFFF" vlink="#FFFFFF">
+	<p align="center"></p>
+	<p align="center"><font face="MS Sans Serif" size="3">
+	<div align="center" id="title_site">
+		[Flask example]
+	</div>
+
+	<div align="center" id="title_site_2">
+	  <b> 1 </b>  *  <d> 2 </d>  * <i> 3 </i> *  <k> 4 </k>  * <g> 5 </g> * <v> 6 </v>
+	</div>  
+  
+	<center>
+	<img src="{{url_for('static', filename='img/title.jpg')}}" />
+	</center>
+
+	<div id="menu">   
+
+	</div> 
+	<div id="t_content"> 
+  
+	<hr width="100%" size="4"><code>
+
+
+	{% block body %}	
+
+	{% endblock %}			
+
+	<hr width="100%" size="4"><code>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,29 @@
+
+{% extends 'layout_ru.html' %}
+
+{% block body %}
+
+	<div align=left id="t_main_text"><h1>Лаб работа по Flask. Задание {{ output.tasknum }}
+	</h1>
+
+	<p id="normal_text"> Введите параметры </p>
+  
+	<br>
+
+	<i>x: <i> <form action="/task/{{output.tasknum}}/" method="POST"> <input type="text" name='input' value={{ output.default }} />  <input type="submit" value='Enter' />  </form>
+
+
+	<br>
+
+	{% if output.ready %}
+
+	<p> Answer: <span id="normal_text"> {{ output.result }} </span> </p>
+
+	{% else %}	
+
+	{% endif %}
+
+	</div> 
+
+{% endblock %}	
+
